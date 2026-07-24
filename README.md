@@ -1,3 +1,9 @@
+## Differences from upstream ([naver/mast3r](https://github.com/naver/mast3r))
+This fork (`gogojjh/mast3r`) tracks upstream `main` and repoints the nested `dust3r` submodule to [`gogojjh/dust3r`](https://github.com/gogojjh/dust3r) instead of `naver/dust3r`, which adds:
+- **Python 3.8 compatibility** in the optimizer's cache handling.
+- **Calibrated confidence map support** (`calib_params`) in the global alignment optimizer used by `global_aligner(...)`, plus LoRA fine-tuning utilities built on top of it.
+
+---
 ![banner](assets/mast3r.jpg)
 
 Official implementation of `Grounding Image Matching in 3D with MASt3R`  
